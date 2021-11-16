@@ -13,3 +13,9 @@ value = int(input("Enter number up to 100: "))
 for i in range(value+1):
   sum+=i
 print(sum)
+
+total_score = 0 
+for i in range(3): 
+  my_score = int(input("Enter number: " )) 
+  total_score += my_score 
+  print("The 3 game total is: ", total_score) 
